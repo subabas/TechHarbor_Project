@@ -4,10 +4,10 @@ Feature: login into an account.
     Given I am on the amazon homepage
 
     When i click on the sign in button from the home page
-    And i enter the "<email.address>" in the email address input field
+    And i enter the "<email_address>" in the email address input field
     And i click on the continue button
-    And i enter the "<password> in the password input field
-    And i click on the sign in button'
+    And i enter the "<password>" in the password input field
+    And i click on the sign in button
 
     Then i can able to login to my account successfully
 
