@@ -6,13 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import sun.jvm.hotspot.utilities.Assert;
+
+
 
 import java.util.concurrent.TimeUnit;
 
 public class mouseHoverPractice {
 
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
         WebDriver driver;
         WebDriverManager.chromedriver().setup();
@@ -27,9 +28,6 @@ public class mouseHoverPractice {
 
         Actions act = new Actions(driver);
         act.moveToElement(imgl).build().perform();
-        Assert Assert;
-        text1.getText().equals(Assert),"name: user1");
-        Assert.that(link1.isEnabled());
 
     }
-
+}
